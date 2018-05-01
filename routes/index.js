@@ -3,8 +3,7 @@ const router = express.Router();
 
 // Do work here
 router.get('/', (req, res) => {
-  console.log('hey!');
-  res.send('Hey! It works!');
+  res.render();
 });
 
 module.exports = router;
